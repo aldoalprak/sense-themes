@@ -1,50 +1,5 @@
 {
   "sections": {
-    "54674849-5adc-44cc-91b2-8aae3a09c17a": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h2"
-          }
-        },
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-0",
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-1",
-        "template--14892698894401__54674849-5adc-44cc-91b2-8aae3a09c17a-16788690757168567d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/images_9.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "fe69d8d2-7a41-4da1-9758-1429c56db22d": {
       "type": "slideshow",
       "blocks": {
@@ -799,6 +754,86 @@
         "padding_bottom": 0
       }
     },
+    "165481865642f8a67c": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "16548186560dbf6054-1": {
+          "type": "product",
+          "settings": {
+            "product": "soothe-joints-joint-support",
+            "second_image": false
+          }
+        },
+        "89af8271-1460-458d-8fd0-6ed0907e210a": {
+          "type": "product",
+          "settings": {
+            "product": "dog-breath-dental-chews-powder",
+            "second_image": false
+          }
+        },
+        "16548186560dbf6054-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        }
+      },
+      "block_order": [
+        "16548186560dbf6054-1",
+        "89af8271-1460-458d-8fd0-6ed0907e210a",
+        "16548186560dbf6054-2"
+      ],
+      "settings": {
+        "heading": "HERBSMITH",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654630189c35e2315": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "0aa15869-ef0e-4575-9b45-ca7ac9920e6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_1.jpg",
+            "image_padding": true
+          }
+        },
+        "16546301894fdbd696-1": {
+          "type": "product",
+          "settings": {
+            "product": "holistic-wellness-package-optimal-health-1",
+            "second_image": false
+          }
+        },
+        "9be14add-d6fe-499e-9ffc-9c3b3d899629": {
+          "type": "collection",
+          "settings": {
+            "collection": "holistic-packages"
+          }
+        }
+      },
+      "block_order": [
+        "0aa15869-ef0e-4575-9b45-ca7ac9920e6d",
+        "16546301894fdbd696-1",
+        "9be14add-d6fe-499e-9ffc-9c3b3d899629"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165360049573afb263": {
       "type": "featured-collection",
       "disabled": true,
@@ -1009,7 +1044,6 @@
     }
   },
   "order": [
-    "54674849-5adc-44cc-91b2-8aae3a09c17a",
     "fe69d8d2-7a41-4da1-9758-1429c56db22d",
     "96d19274-6a91-40cb-9fa3-9224307a4365",
     "d22dbc8e-ebef-4ae9-9a5c-26dbd713d645",
@@ -1025,6 +1059,8 @@
     "31b42b62-65c6-4a78-bbbe-3df2f89d00b8",
     "166067697940e20219",
     "87e5c917-58e5-4aba-aa8b-2cc7251e09de",
+    "165481865642f8a67c",
+    "1654630189c35e2315",
     "165360049573afb263",
     "36095dc9-2792-4a21-a3f0-07b8c23746f3",
     "cac22a88-7300-4462-83f4-0fd8b4d0af1b",
