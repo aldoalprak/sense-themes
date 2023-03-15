@@ -11,24 +11,102 @@
     "main-collection-product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 20,
-        "columns_desktop": 4,
+        "products_per_page": 24,
+        "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
+        "show_vendor": true,
+        "show_rating": true,
         "enable_quick_add": false,
         "enable_filtering": true,
-        "filter_type": "horizontal",
+        "filter_type": "vertical",
         "enable_sorting": true,
+        "filtertitle0": "Type",
+        "filtetag0": "Veterinary,\nHorse,\nDog,\nCat,\nHuman,\nBundle\/ Kit,\nRecommended products,\nCore Product,\nDigital Course,\nEbook,\nAt-Home Lab Test,\nPet Supplies,\nPet device,",
+        "filtertitle": "System Supported",
+        "filtetag": "Cancer support,\nAllergy Support,\nBone & Joint Support,\nDigestive (GI) Support,\nInflammation Support,\nGeneral Immune Support,\nSkin and Coat Support,\nBrain\/ Cognitive Support,\nHeart support,\nRespiratory Support,\nLiver support,\nKidney Support,\nVaccinosis Support,\nOral Health Support,\nEnergy Support,\nThyroid Support,\nUrinary Tract Support,\nEar Support,\nDetox Support,",
+        "filtertitle1": "Form",
+        "filtetag1": "Liquid,\nDrops,\nSpray,\nCapsule,\nPowder,\nTablet,",
+        "filtertitle2": "Ingredients",
+        "filtetag2": "Mushroom Extracts,\nProbiotic,\nOmega 3 Fatty Acid,\nMultivitamin,\nCurcumin,\nQuercetin,\nGlandular,",
+        "filtertitle3": "Brand",
+        "filtetag3": "Standard Process,\nDr. Ruth Roberts, Mycodog,\nAmber naturalz,\nAyush Herbs, Microbiome labs,\nAssisi Animal Health,\nAnimal Biome",
         "columns_mobile": "2",
         "padding_top": 0,
-        "padding_bottom": 68
+        "padding_bottom": 0
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "all"
+          }
+        }
+      },
+      "block_order": [
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "Discover more of our favorites",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main-collection-banner",
-    "main-collection-product-grid"
+    "main-collection-product-grid",
+    "collage",
+    "newsletter"
   ]
 }
